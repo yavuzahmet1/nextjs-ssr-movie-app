@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js Movie Site
 
-## Getting Started
+This project is a movie site built using Next.js. It features trending movies, Firebase authentication for user login, and styling with Tailwind CSS.
+Features
 
-First, run the development server:
+    Trending Movies: Lists current movies fetched from an API.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    Firebase Authentication: Allows users to sign up and log in.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Tailwind CSS: Modern and responsive design using Tailwind CSS.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+    PNPM: Package management handled by PNPM.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Installation
 
-## Learn More
+Follow these steps to run the project locally:
 
-To learn more about Next.js, take a look at the following resources:
+    Clone the Repository:
+    bash
+    Copy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    git clone https://github.com/your-username/repo-name.git
+    cd repo-name
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    Install Dependencies:
+    bash
+    Copy
 
-## Deploy on Vercel
+    pnpm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Firebase Configuration:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+        Create a Firebase project and add your firebaseConfig details to the .env.local file:
+        env
+        Copy
+
+        NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
+        NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-auth-domain
+        NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
+        NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+        NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+        NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+
+    Run the Project:
+    bash
+    Copy
+
+    pnpm run dev
+
+    View in Browser:
+    The project will run at http://localhost:3000.
+
+Technologies Used
+
+    Next.js: React-based SSR and static site generation.
+
+    Firebase: User authentication and session management.
+
+    Tailwind CSS: Fast and modern styling.
+
+    PNPM: Efficient package management.
+
+Contributing
+
+If you'd like to contribute to the project, please submit a Pull Request. Your suggestions and feedback are always welcome!
+License
+
+This project is licensed under the MIT License.
