@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/(giris)/register/page": "app/(giris)/register/page.js",
+  "/(private)/profile/page": "app/(private)/profile/page.js",
+  "/(private)/movies/page": "app/(private)/movies/page.js"
+}
