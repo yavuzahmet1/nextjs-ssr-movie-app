@@ -398,3 +398,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ortam değişkeni dosyaları
+.env
+.env.local
+.env.development
+.env.production
+.env.test
