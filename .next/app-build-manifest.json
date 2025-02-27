@@ -40,6 +40,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(private)/movies/page.js"
+    ],
+    "/(private)/movies/[movieId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(private)/movies/[movieId]/page.js"
     ]
   }
 }

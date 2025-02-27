@@ -3,6 +3,8 @@ Next.js Movie Site
 This project is a movie site built using Next.js. It features trending movies, Firebase authentication for user login, and styling with Tailwind CSS.
 Features
 
+![Screenshot](./public/images/demo.gif)
+
     Trending Movies: Lists current movies fetched from an API.
 
     Firebase Authentication: Allows users to sign up and log in.
