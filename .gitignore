@@ -405,3 +405,4 @@ FodyWeavers.xsd
 .env.development
 .env.production
 .env.test
+.next
