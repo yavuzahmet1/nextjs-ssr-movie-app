@@ -10,7 +10,7 @@ const profileImages = [
   "/images/default-green.png",
 ];
 const Profile = () => {
-  const router=useRouter()
+  const router = useRouter()
   const { currentUser } = useAuthContext();
 
   return (
@@ -21,9 +21,9 @@ const Profile = () => {
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 mt-10">
           {profileImages.map((image, i) => (
-            <div
-            onClick={()=>router.push("/movies")}
-             className="w-44 mx-auto cursor-pointer group">
+            <div key={i}
+              onClick={() => router.push("/movies")}
+              className="w-44 mx-auto cursor-pointer group">
               <div className="w-44 h-44 rounded-md flex items-center justify-center border-2 border-transparent group-hover:cursor-pointer group-hover:border-white overflow-hidden">
                 <img
                   draggable={false}
