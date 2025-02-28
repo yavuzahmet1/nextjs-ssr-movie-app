@@ -60,7 +60,7 @@ const AuthContextProvider = ({ children }) => {
       router.push("/profile");
     } catch (err) {
       toastErrorNotify(err.message);
-      // alert(err.message);
+
     }
   };
 
@@ -115,7 +115,7 @@ const AuthContextProvider = ({ children }) => {
     signIn,
     logOut,
     signUpProvider,
-    
+
   };
   return <AuthContext.Provider value={values}>{children}</AuthContext.Provider>;
 };

@@ -13,19 +13,12 @@ import Link from "next/link";
 import { useAuthContext } from "@/context/AuthContext";
 
 const Navbar = () => {
- 
+
 
   const { logOut } = useAuthContext();
 
-  
-
-   
-
   //* with custom hook
   const { currentUser } = useAuthContext();
-  // const currentUser = { displayName: "felix franko" };
-  // const currentUser = false;
-
   return (
     <>
       <Disclosure as="nav" className="text-white fixed top-0 z-20 w-full">
